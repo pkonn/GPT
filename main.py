@@ -16,7 +16,7 @@ st.write("""# """)
 
 st.write(" *Исходные данные:* ")
 
-age = st.slider('Укажите максимальную границу Pпп', min_value = 2.1, max_value = 4.0, step = 0.1)
+age = st.text_input('Укажите максимальную границу Pпп', '4')
 age = age + 0.01
 
 Ne = 810e6
