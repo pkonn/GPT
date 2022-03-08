@@ -12,7 +12,8 @@ st.caption('ppp = 2.489 МПа')
 st.caption('tpp = 550 C')
 st.caption('pk = 4.8 кПа')
 st.caption('z = 7 шт.')
-tpv = st.slider('Диапазон значений tpv = ',230,240)
+tpv = st.slider('Диапазон значений tpv = ', 230, 240)
+tpv = tpv + 0.01
 
 Ne = 218e6
 p0 = 13.1e6
