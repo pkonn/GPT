@@ -107,6 +107,8 @@ def Calculate_G0_Gk(N_e, p_0, T_0, p_pp, T_pp, p_k, T_pv):
     G_0 = N_e/(H_i*eta_m*eta_eg*(10**3))
     G_k = N_e/((h_k-h_k_v)*eta_m*eta_eg*(10**3))*(1/eta_ir-1)
     return eta_ir
+    return G_0
+    return G_k
 
 def Calculate_G0(N_e, p_0, T_0, p_pp, T_pp, p_k, T_pv):
     d_p0 = 0.05
