@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from iapws import IAPWS97
+import numpy as np
 
 st.title('Курсовая работа ')
 st.subheader('Конюхова П.O. ФПэ-01-19 Вариант 6 ')
@@ -23,7 +24,7 @@ ppp = 2.49e6
 tpp = 550
 Tpp = tpp+273.15
 pk = 4.8e3
-tpv = list(range(230, tpv, 1))
+tpv = list(np.arange(230, tpv, 1))
 Tpv = [t+273.15 for t in tpv]
 
 d_p0 = 0.05
