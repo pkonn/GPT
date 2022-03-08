@@ -23,7 +23,7 @@ ppp = 2.49e6
 tpp = 550
 Tpp = tpp+273.15
 pk = 4.8e3
-tpv = list(np.arange(230, tpv, 1))
+tpv = list(range(230, tpv, 1))
 Tpv = [t+273.15 for t in tpv]
 
 d_p0 = 0.05
