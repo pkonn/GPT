@@ -11,7 +11,7 @@ st.caption('ppp = 2.489 МПа')
 st.caption('tpp = 550 C')
 st.caption('pk = 4.8 кПа')
 st.caption('z = 7 шт.')
-tpv = st.slider('tpv = ', 230, 240, 1)
+tpv = st.slider('tpv = ', 230, 240)
 
 Ne = 218e6
 p0 = 13.1e6
