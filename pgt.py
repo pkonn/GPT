@@ -12,7 +12,7 @@ st.caption('ppp = 2.489 МПа')
 st.caption('tpp = 550 C')
 st.caption('pk = 4.8 кПа')
 st.caption('z = 7 шт.')
-tpv = st.slider('Диапазон значений tpv = ', min_value = 230, max_value = 240, step = 1, (min_value = 230, max_value = 240, step = 1))
+tpv = st.slider('Диапазон значений tpv = ',230,240)
 
 Ne = 218e6
 p0 = 13.1e6
@@ -22,7 +22,7 @@ ppp = 2.49e6
 tpp = 550
 Tpp = tpp+273.15
 pk = 4.8e3
-tpv = list(np.arange(tpv, 1))
+tpv = list(np.arange(230, tpv, 1))
 Tpv = [t+273.15 for t in tpv]
 
 d_p0 = 0.05
